@@ -1,0 +1,40 @@
+{
+  "id": "BB-028",
+  "source": "Deterministic five-hour Open-Meteo-shaped forecast. No live forecast is implied.",
+  "scenario": "A rainy hour interrupted the dry interval. The algorithm selected the next 45-minute slot across only dry forecast hours.",
+  "keys": [
+    "up",
+    "down",
+    "ok"
+  ],
+  "frames": 54,
+  "distinct_frames": 13,
+  "exit": "App io.ncoooooper.drywindow exited: finished; heap peak 81.6 of 128 KiB",
+  "sha256": "c3f45f31d1df59ca7d57523b97a533962c46d8dbf46209515e625a37b5853778",
+  "pages": [
+    {
+      "caption": "DRY WINDOW",
+      "value": "01:00",
+      "lines": [
+        "01:00 - 01:45",
+        "Need 45 minutes"
+      ]
+    },
+    {
+      "caption": "RAIN LIMIT",
+      "value": "25%",
+      "lines": [
+        "Zero predicted rain volume",
+        "Forecast, not a guarantee"
+      ]
+    }
+  ],
+  "initial": {
+    "caption": "DRY WINDOW",
+    "value": "01:00",
+    "lines": [
+      "01:00 - 01:45",
+      "Need 45 minutes"
+    ]
+  }
+}

@@ -4,6 +4,6 @@
   "name": "Dry Window",
   "version": "0.1.0",
   "api_version": "27.12.0",
-  "description": "Dry Window",
+  "description": "Find a continuous dry slot long enough for your run, walk or outdoor errand.",
   "author": "ncoooooper"
 }
