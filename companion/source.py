@@ -25,5 +25,14 @@ def snapshot(o,m):
         a,b=result;f=lambda stamp:datetime.fromtimestamp(stamp,zone).strftime("%H:%M")
         value="Now" if a<=now+1 else f(a);detail=f(a)+" - "+f(b)
     else:value="No slot";detail="Within forecast horizon"
+    hours=[]
+    hourly=dict(zip(h["time"],zip(h["precipitation"],h["precipitation_probability"])))
+    first=int(now//3600)*3600
+    for t in range(first,min(first+8*3600,max(hourly,default=first-3600)+3600),3600):
+        mm,chance=hourly.get(t,(None,None))
+        if mm is None or chance is None:state="unknown"
+        elif result and t<result[1] and t+3600>result[0]:state="slot"
+        else:state="dry" if mm==0 and chance<=prob else "wet"
+        hours.append(state)
     return dict(state="Open-Meteo hourly",key=str(result and int(result[0]//3600)),pages=[
-        page("DRY WINDOW",value,detail,f"Need {minutes:g} minutes"),page("RAIN LIMIT",f"{prob:g}%","Zero predicted rain volume","Forecast, not a guarantee")])
+        dict(page("DRY WINDOW",value,detail,f"Need {minutes:g} minutes"),hours=hours),page("RAIN LIMIT",f"{prob:g}%","Zero predicted rain volume","Forecast, not a guarantee")])

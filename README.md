@@ -4,6 +4,8 @@ Find a continuous dry slot long enough for your run, walk or outdoor errand.
 
 A dry hour on a weather chart may have only ten usable minutes left. This app looks for an unbroken interval long enough for the whole errand, including the part that falls in the next forecast hour.
 
+On the window page each block is one forecast hour, starting with the current hour. Blue means the hour fails the rain limits, teal means it qualifies, and taller pale-green blocks mark the chosen outing. Gray means missing data. The rain-limit page places the configured threshold on a 0–100% scale.
+
 ## Find a slot for the whole trip
 
 1. Enter your location, time zone, required minutes and rain-probability limit in the companion.
