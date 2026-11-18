@@ -1,7 +1,7 @@
 {
   "name": "busybar-dry-window",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Find a continuous dry slot long enough for your run, walk or outdoor errand.",
   "author": "ncoooooper",
   "type": "module",

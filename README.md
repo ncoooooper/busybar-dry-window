@@ -6,6 +6,20 @@ A dry hour on a weather chart may have only ten usable minutes left. This app lo
 
 On the window page each block is one forecast hour, starting with the current hour. Blue means the hour fails the rain limits, teal means it qualifies, and taller pale-green blocks mark the chosen outing. Gray means missing data. The rain-limit page places the configured threshold on a 0–100% scale.
 
+## Screen transitions
+
+Move from the length of the dry window to its start time.
+
+![Dry Window front display. Move from the length of the dry window to its start time.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Dry Window rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Find a slot for the whole trip
 
 1. Enter your location, time zone, required minutes and rain-probability limit in the companion.
@@ -44,6 +58,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. Each front-display pixel is shown at 9× its original width and height. The end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The end frames pause for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)

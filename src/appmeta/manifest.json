@@ -2,7 +2,7 @@
   "format_version": 1,
   "id": "io.ncoooooper.drywindow",
   "name": "Dry Window",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "api_version": "27.12.0",
   "description": "Find a continuous dry slot long enough for your run, walk or outdoor errand.",
   "author": "ncoooooper"

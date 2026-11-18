@@ -10,7 +10,7 @@
   "frames": 54,
   "distinct_frames": 13,
   "exit": "App io.ncoooooper.drywindow exited: finished; heap peak 81.6 of 128 KiB",
-  "sha256": "b1992a5c847adb267bdafd4f02b897d2800c682f01c0b9358d0aabe9ef9338ce",
+  "sha256": "e82abbf00e58e0b34a9be31193ac933362a34a09e35f394fa7f4e91e67adfe4c",
   "pages": [
     {
       "caption": "DRY WINDOW",
