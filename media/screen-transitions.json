@@ -1,6 +1,17 @@
 {
   "app": "busybar-dry-window",
-  "sha256": "e82abbf00e58e0b34a9be31193ac933362a34a09e35f394fa7f4e91e67adfe4c",
+  "sha256": "f4e3de5deebe25a81f49dfbbe829d6cb5d4e5c14e9e516372701affb5ceb7a9f",
+  "rapid_input_test": {
+    "app": "io.ncoooooper.drywindow",
+    "sha256": "f4e3de5deebe25a81f49dfbbe829d6cb5d4e5c14e9e516372701affb5ceb7a9f",
+    "firmware": {
+      "name": "1.3.1",
+      "commit": "8edd2da4"
+    },
+    "heap_peak_kib": 88.8,
+    "budget_kib": 128.0,
+    "exit": "finished"
+  },
   "firmware": "1.3.1",
   "cell": 16,
   "lit": 14,
