@@ -22,7 +22,7 @@ A dry hour on a weather chart may have only ten usable minutes left. This app lo
 
 ## Example from the emulator
 
-The test forecast included a rainy hour between two dry periods. A 45-minute outing had to fit entirely within a qualifying period. Zero forecast precipitation and the configured probability ceiling apply throughout. Deterministic five-hour Open-Meteo-shaped forecast. No live forecast is implied.
+The test forecast included a rainy hour between two dry periods. A 45-minute outing had to fit entirely within a qualifying period. Zero forecast precipitation and the configured probability ceiling apply throughout. The recording used five hours of test data in the Open-Meteo response format.
 
 ## Set up the source
 
